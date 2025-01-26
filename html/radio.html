@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="icon" type="image/x-icon" href="../images/slogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../css/spotify_clone.css">
+<link rel="stylesheet" href="path/to/normalize.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="../spotify_clone.html">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="../html/search.html">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                      <img src="../images/library_icon.png">
+                      <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                      <i class="fa-solid fa-plus"></i>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>      
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">Don't worry, we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box-2 box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+                <div class="al">
+                    <div class="alg-img">
+                        <img src="../images/album_picture.jpeg" style="height:50px; width:50px;">
+                    </div>
+                    <div class="al-p">
+                    <div class="al-p1" style="opacity:1;">Daylight</div>
+                    <div class="al-p2" style="opacity:0.8;">David Kushner</div>
+                    </div>
+                    <div class="al-icons">
+                        <p style="color:red;font-size:25px;">&hearts;</p>
+                        <img src="../images/album_icon2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="../images/backward_icon.png">
+                    <img src="../images/forward.png" class="hide">
+                </div>
+                <div class="sticky-nav-dwnld">
+                <button class="badge hide">Explore Premium</button>
+                <button class="badge dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px;"></i> Install App</button>
+                <i class="fa-solid fa-user" style="margin-right:1rem;"></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="heading">
+                    <a href="#"><h2>Popular Radio</h2></a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/arradio.png" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Arjit Singh Radio</p>
+                        <p class="card-info">With Neha Kakkar, Pritam, KK and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/unradio.png" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Udit Narayan Radio</p>
+                        <p class="card-info">With Kumar Sanu, Anuradha Paudwal and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/ksradio.png" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Kumar Sanu Radio</p>
+                        <p class="card-info">With Udit Narayan, Alka Yagnik and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/kkradio.png" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">KK Radio</p>
+                        <p class="card-info">With Mohit Chauhan, Ankit Tiwari and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/snradio.jpeg" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Sonu Nigam Radio</p>
+                        <p class="card-info">With Shaan, Pritam, Vishal-Shekhar and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/sgradio.jpeg" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Shreya Goshal Radio</p>
+                        <p class="card-info">With Vishal-Shekhar, A.R. Rahman, Atif Aslam and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/prardio.jpeg" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Pritam Radio</p>
+                        <p class="card-info">With Atif Aslam, Vishal-Shekhar, Mohit Chauhan and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/sjradio.jpeg" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Sachin-Jigar Radio</p>
+                        <p class="card-info">With Udit Narayan, Alka Yagnik and more</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../images/aaradio.jpeg" class="card-img">
+                            <img src="../images/play.png" class="card-img-play">
+                        </div>
+                        <p class="card-title">Atif Aslam Radio</p>
+                        <p class="card-info">With Pritam, Sachin-Jigar, Mohit Chauhan and more</p>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <div class="line" style="opacity:0;"></div></div>
+                    <div class="fr">
+                    <div class="company">
+                        <ul>
+                            <li style="opacity:1;font-size:20px;font-weight:550;">Company</li>
+                            <li style="opacity:0.7;font-size:16px;">About</li>
+                            <li style="opacity:0.7;font-size:16px;">Jobs</li>
+                            <li style="opacity:0.7;font-size:16px;">For the Record</li>
+                        </ul>
+                    </div>
+                    <div class="communities">
+                        <ul>
+                            <li style="opacity:1;font-size:20px;font-weight:550;">Communities</li>
+                            <li style="opacity:0.7;font-size:16px;">For Artists</li>
+                            <li style="opacity:0.7;font-size:16px;">Developers</li>
+                            <li style="opacity:0.7;font-size:16px;">Advertising</li>
+                            <li style="opacity:0.7;font-size:16px;">Investors</li>
+                            <li style="opacity:0.7;font-size:16px;">Vendors</li>
+                        </ul>
+                    </div>
+                    <div class="useful-links">
+                        <ul>
+                            <li style="opacity:1;font-size:20px;font-weight:550;">Useful Links</li>
+                            <li style="opacity:0.7;font-size:16px;">Support</li>
+                            <li style="opacity:0.7;font-size:16px;">Free Mobile App</li>
+                        </ul>
+                    </div>
+                    <div class="spotify-plans">
+                        <ul>
+                            <li style="opacity:1;font-size:20px;font-weight:550;">Spotify Links</li>
+                            <li style="opacity:0.7;font-size:16px;">Premiuim Individual</li>
+                            <li style="opacity:0.7;font-size:16px;">Premium Duo</li>
+                            <li style="opacity:0.7;font-size:16px;">Premium Family</li>
+                            <li style="opacity:0.7;font-size:16px;">Premium Student</li>
+                            <li style="opacity:0.7;font-size:16px;">Spotify Free</li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+        
+                    </div>
+                </div><br>
+                <div class="line"></div><br><br>
+                <h4 class="copyright">@2024 Spotify AB</h4>
+            </div>
+            <br><br><br><br>
+                <div class="music-player">
+                    <div class="album">
+                    </div>
+                    <div class="player">
+                        <div class="player-control" style="margin-left: 50px;">
+                            <img src="../images/player_icon1.png" alt="icon1" class="player-control-icon">
+                            <img src="../images/player_icon2.png" alt="icon2" class="player-control-icon">
+                            <img src="../images/player_icon3.png" alt="icon3" class="player-control-icon" style="opacity:1; height:1.85rem;">
+                            <img src="../images/player_icon4.png" alt="icon4" class="player-control-icon">
+                            <img src="../images/player_icon5.png" alt="icon5" class="player-control-icon">
+                          </div>
+                        <div class="progress-bar">
+                            <span class="cur-time">0.45</span>
+                            <input type="range" min="0" max="100" step="1" class="slider">
+                            <span class="tot-time">3.33</span>
+                         </div>
+                         
+                        </div>
+                         <div class="controls">  
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </body>
+        </html>
+        
